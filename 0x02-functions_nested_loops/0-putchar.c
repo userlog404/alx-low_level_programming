@@ -1,18 +1,23 @@
 #include "main.h"
+
+
 /**
- *  main - Print a message
+ * main - Entry point
  *
- * Return: 0
+ * Return: nothing, return void
  */
+
 int main(void)
 {
-	char holbie[] = "_putchar\n";
-	int i;
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	for (i = 0 ; i < 11 ; i++)
-	{
-	_putchar(holbie[i]);
-	i++;
-	}
-	return (0);
+return (0);
 }
