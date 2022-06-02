@@ -1,6 +1,4 @@
-
-  
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 #define MAXSIZE 1204
